@@ -16,6 +16,13 @@ function App() {
           <span>ADD TO CART</span>
         </div>
       </div>
+      {/* Grid */}
+      {/* 1 row 3 cols */}
+      <div className="grid grid-rows-1 grid-cols-3 text-center gap-4">
+        <p className="bg-amber-200">Hello</p>
+        <p className="bg-green-300">Hello</p>
+        <p className="bg-orange-200"> Hello</p>
+      </div>
     </div>
   );
 }
