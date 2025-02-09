@@ -11,4 +11,5 @@
 7. Padding and Margin: `px-2` | `mx-2`
 8. Border: `border-b-2 border-orange-300`
 9. Spacing between two elements: `space-x-4`
-10.
+10. Box model setting width and height: `h-80` | `w-71`
+11.
