@@ -1,7 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import "tailwindcss";
+
 
 @layer components{
     .input{
         @apply bg-amber-100 rounded-lg px-2 py-1 focus:outline-amber-600;
     }
+}
+
+@theme {
+    --font-roboto: "Roboto", sans-serif; 
 }
