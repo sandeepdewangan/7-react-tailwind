@@ -15,6 +15,7 @@
 11. Entire height of view port: `h-screen`
 12. Set only specific element to scroll: `overflow-scroll`
 13. Center the whole context: `mx-auto`
+14. Rounded element: `rounded-2xl`
 
 ### Flex
 
@@ -26,3 +27,9 @@
 
 `grid grid-rows-1 grid-cols-3` -> One row and three columns.
 `gap-4` -> Space or gap between grid elements.
+
+### Element State and Transitions
+
+`hover:text-orange-300` -> Hovering and changing colors.
+`transition-colors duration-500` -> Transition of colors for 500ms.
+`active:bg-red-500` -> When button is pressed, red background is set.

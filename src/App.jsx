@@ -23,6 +23,13 @@ function App() {
         <p className="bg-green-300">Hello</p>
         <p className="bg-orange-200"> Hello</p>
       </div>
+      <a className="text-sm text-orange-800 hover:text-orange-300" href="">
+        🏠 Go to home page
+      </a>
+      <br />
+      <button className="uppercase bg-orange-300 px-4 py-2 rounded-2xl tracking-wider text-md hover:bg-orange-200 text-stone-800 font-semibold transition-colors duration-500 active:bg-red-500">
+        Order Now
+      </button>
     </div>
   );
 }
