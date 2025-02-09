@@ -1,7 +1,12 @@
 function App() {
   return (
     <div>
-      <div className="text-2xl bg-yellow-200 py-4 px-2 border-b-2 border-orange-300">
+      {/* Loader */}
+      {/* <div className="absolute bg-stone-300/30 inset-0 backdrop-blur-sm flex  items-center justify-center">
+        <span className="text-3xl">Loading...</span>
+      </div> */}
+
+      <div className="text-2xl bg-yellow-200 py-4 px-2 border-b-2 border-orange-300 ">
         <span className="tracking-[1em]">Header</span>
       </div>
       <div className="px-4">

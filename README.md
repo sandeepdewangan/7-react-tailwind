@@ -16,12 +16,15 @@
 12. Set only specific element to scroll: `overflow-scroll`
 13. Center the whole context: `mx-auto`
 14. Rounded element: `rounded-2xl`
+15. Opacity: `bg-stone-300/30` (30% opacity)
+16. Background blur: `backdrop-blur-sm`
+17. Flex related: `flex items-center justify-center`
 
 ### Flex
 
 `flex` -> Arrange items in one row.
-`justify-between` | `justify-around` -> Pull items into specified way horizontally.
-`items-end` | `items-center` -> Vertical alignment of items.
+`justify-center` | `justify-between` | `justify-around` -> Pull items into specified way horizontally.
+`items-center` | `items-end` -> Vertical alignment of items.
 
 ### Grid
 
@@ -49,3 +52,16 @@ Apply the Rules
 Usage
 
 `<input type="text" className="input" />`
+
+### Absolute Position and Z Index
+
+`absolute` -> Places the element in front of text or other elements.
+`inset-0` -> Stretch to entire viewport from left, right, top, bottom.
+
+Custom Centered Loader
+
+```html
+<div
+  className="absolute bg-stone-300/30 inset-0 backdrop-blur-sm flex items-center justify-center"
+></div>
+```
