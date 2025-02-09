@@ -33,3 +33,19 @@
 `hover:text-orange-300` -> Hovering and changing colors.
 `transition-colors duration-500` -> Transition of colors for 500ms.
 `active:bg-red-500` -> When button is pressed, red background is set.
+
+### Re-using Styles
+
+Apply the Rules
+
+```css
+@layer components {
+  .input {
+    @apply bg-amber-100 rounded-lg px-2 py-1 focus:outline-amber-600;
+  }
+}
+```
+
+Usage
+
+`<input type="text" className="input" />`

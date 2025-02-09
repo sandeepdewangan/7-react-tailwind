@@ -30,6 +30,25 @@ function App() {
       <button className="uppercase bg-orange-300 px-4 py-2 rounded-2xl tracking-wider text-md hover:bg-orange-200 text-stone-800 font-semibold transition-colors duration-500 active:bg-red-500">
         Order Now
       </button>
+      <br />
+      {/* Form */}
+      <div className="bg-green-100 max-w-90 mx-auto">
+        <div>
+          <label>Enter first name</label>
+          <br />
+          <input type="text" className="input" />
+        </div>
+        <div>
+          <label>Enter mobile number</label>
+          <br />
+          <input type="text" className="input" />
+        </div>
+        <div>
+          <label>Enter address</label>
+          <br />
+          <input type="text" className="input" />
+        </div>
+      </div>
     </div>
   );
 }
